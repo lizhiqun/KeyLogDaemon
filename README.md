@@ -2,6 +2,8 @@ KeyLogDaemon
 ============
 Commonly, Hooking of password window was prevented. 
 
+But build the extended kernel so that it is possible to hook the all key event.
+
 This project consists of 2 parts.
 
 That is, project for making the extended kernel file and projec on application level.
