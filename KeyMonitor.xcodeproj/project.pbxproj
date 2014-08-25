@@ -1,0 +1,163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		61F7E94518802E4800420EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F7E94118802E4800420EEF /* KeyLog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A8381D515A37DB600ABE7AC;
+			remoteInfo = KeyLog;
+		};
+		D337A298187F078F0004875B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D337A294187F078E0004875B /* InstallApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D34E197C187D92BB00E05970;
+			remoteInfo = InstallApp;
+		};
+		D3ADA32E187D9181006525A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3ADA32A187D9180006525A4 /* MonitorClient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3E7AD0E186EB84D007F9F57;
+			remoteInfo = MonitorClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61F7E94118802E4800420EEF /* KeyLog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KeyLog.xcodeproj; path = KeyLogTransfer/KeyLog.xcodeproj; sourceTree = "<group>"; };
+		D337A294187F078E0004875B /* InstallApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InstallApp.xcodeproj; path = InstallApp/InstallApp.xcodeproj; sourceTree = "<group>"; };
+		D3ADA32A187D9180006525A4 /* MonitorClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MonitorClient.xcodeproj; path = MonitorClient/MonitorClient.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		61F7E94218802E4800420EEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F7E94618802E4800420EEF /* KeyLog.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D337A295187F078E0004875B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D337A299187F078F0004875B /* InstallApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3ADA2E1187D904E006525A4 = {
+			isa = PBXGroup;
+			children = (
+				61F7E94118802E4800420EEF /* KeyLog.xcodeproj */,
+				D337A294187F078E0004875B /* InstallApp.xcodeproj */,
+				D3ADA32A187D9180006525A4 /* MonitorClient.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		D3ADA32B187D9180006525A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3ADA32F187D9181006525A4 /* MonitorClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D3ADA2E2187D904E006525A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = D3ADA2E5187D904E006525A4 /* Build configuration list for PBXProject "KeyMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3ADA2E1187D904E006525A4;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D337A295187F078E0004875B /* Products */;
+					ProjectRef = D337A294187F078E0004875B /* InstallApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 61F7E94218802E4800420EEF /* Products */;
+					ProjectRef = 61F7E94118802E4800420EEF /* KeyLog.xcodeproj */;
+				},
+				{
+					ProductGroup = D3ADA32B187D9180006525A4 /* Products */;
+					ProjectRef = D3ADA32A187D9180006525A4 /* MonitorClient.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		61F7E94618802E4800420EEF /* KeyLog.kext */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KeyLog.kext;
+			remoteRef = 61F7E94518802E4800420EEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D337A299187F078F0004875B /* InstallApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = InstallApp.app;
+			remoteRef = D337A298187F078F0004875B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D3ADA32F187D9181006525A4 /* MonitorClient.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MonitorClient.app;
+			remoteRef = D3ADA32E187D9181006525A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		D3ADA2E6187D904E006525A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D3ADA2E7187D904E006525A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3ADA2E5187D904E006525A4 /* Build configuration list for PBXProject "KeyMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3ADA2E6187D904E006525A4 /* Debug */,
+				D3ADA2E7187D904E006525A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3ADA2E2187D904E006525A4 /* Project object */;
+}

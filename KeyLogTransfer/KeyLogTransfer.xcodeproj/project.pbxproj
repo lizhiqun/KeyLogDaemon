@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D365C813187F333A00BD7E82 /* KeyLogTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D365C811187F333A00BD7E82 /* KeyLogTransfer.cpp */; };
+		F8C3DF670D366F28004CF3DE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3DF660D366F28004CF3DE /* CoreFoundation.framework */; };
+		F8C3DFE10D367C89004CF3DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C3DFE00D367C89004CF3DE /* SystemConfiguration.framework */; };
+		F8D1916508EE2C3700196CFE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D1916408EE2C3700196CFE /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F7B0486A8DE00D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F7E0486A8DE00D96B5E /* KeyLogTransfer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KeyLogTransfer; sourceTree = BUILT_PRODUCTS_DIR; };
+		D365C811187F333A00BD7E82 /* KeyLogTransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KeyLogTransfer.cpp; path = KeyLogTransfer/KeyLogTransfer.cpp; sourceTree = "<group>"; };
+		D365C812187F333A00BD7E82 /* KeyLogTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyLogTransfer.h; path = KeyLogTransfer/KeyLogTransfer.h; sourceTree = "<group>"; };
+		D365C816187F337100BD7E82 /* KeyLogCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyLogCommon.h; sourceTree = "<group>"; };
+		F8C3DF660D366F28004CF3DE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		F8C3DFE00D367C89004CF3DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		F8D1916408EE2C3700196CFE /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F780486A8DE00D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D1916508EE2C3700196CFE /* IOKit.framework in Frameworks */,
+				F8C3DF670D366F28004CF3DE /* CoreFoundation.framework in Frameworks */,
+				F8C3DFE10D367C89004CF3DE /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* logKextDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				19C28FBDFE9D53C911CA2CBB /* Products */,
+			);
+			name = logKextDaemon;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D365C816187F337100BD7E82 /* KeyLogCommon.h */,
+				D365C811187F333A00BD7E82 /* KeyLogTransfer.cpp */,
+				D365C812187F333A00BD7E82 /* KeyLogTransfer.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3DFE00D367C89004CF3DE /* SystemConfiguration.framework */,
+				F8C3DF660D366F28004CF3DE /* CoreFoundation.framework */,
+				F8D1916408EE2C3700196CFE /* IOKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		19C28FBDFE9D53C911CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F7E0486A8DE00D96B5E /* KeyLogTransfer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F740486A8DE00D96B5E /* KeyLogTransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F861092209283EBE003C3B7F /* Build configuration list for PBXNativeTarget "KeyLogTransfer" */;
+			buildPhases = (
+				8DD76F760486A8DE00D96B5E /* Sources */,
+				8DD76F780486A8DE00D96B5E /* Frameworks */,
+				8DD76F7B0486A8DE00D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLogTransfer;
+			productInstallPath = "$(HOME)/bin";
+			productName = logKextDaemon;
+			productReference = 8DD76F7E0486A8DE00D96B5E /* KeyLogTransfer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = F861092609283EBE003C3B7F /* Build configuration list for PBXProject "KeyLogTransfer" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* logKextDaemon */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F740486A8DE00D96B5E /* KeyLogTransfer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F760486A8DE00D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D365C813187F333A00BD7E82 /* KeyLogTransfer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F861092309283EBE003C3B7F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = KeyLogTransfer;
+				SDKROOT = macosx;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F861092409283EBE003C3B7F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = KeyLogTransfer;
+				SDKROOT = macosx;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F861092509283EBE003C3B7F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = KeyLogTransfer;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+		F861092709283EBE003C3B7F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Development;
+		};
+		F861092809283EBE003C3B7F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Deployment;
+		};
+		F861092909283EBE003C3B7F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F861092209283EBE003C3B7F /* Build configuration list for PBXNativeTarget "KeyLogTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F861092309283EBE003C3B7F /* Development */,
+				F861092409283EBE003C3B7F /* Deployment */,
+				F861092509283EBE003C3B7F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F861092609283EBE003C3B7F /* Build configuration list for PBXProject "KeyLogTransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F861092709283EBE003C3B7F /* Development */,
+				F861092809283EBE003C3B7F /* Deployment */,
+				F861092909283EBE003C3B7F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
